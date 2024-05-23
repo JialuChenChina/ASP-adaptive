@@ -179,16 +179,6 @@ if __name__ == '__main__':
             f_accs.append(test_acc)
 
         print(np.mean(f_accs), np.std(f_accs))
-
-        import csv
-
-        data = [args.dataset, args.K, args.metric, args.l1, np.mean(f_accs), np.std(f_accs)]
-
-
-        with open('results.csv', 'a', encoding='UTF8', newline='') as f:
-            writer = csv.writer(f)
-
-            writer.writerow(data)
            
     elif args.task =='link':
 
