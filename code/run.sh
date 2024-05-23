@@ -31,7 +31,7 @@ python train.py \
     --metric='jaccard'
 
 
-python train.py \
+python train_link.py \
     --dataset=cora  \
     --SEED=0 \
     --K=100 \
