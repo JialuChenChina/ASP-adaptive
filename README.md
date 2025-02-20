@@ -1,4 +1,4 @@
-<img width="948" alt="image" src="https://github.com/user-attachments/assets/7ca550e1-9b8f-4be4-a138-d79827d6ad7d" /># ASP-adaptive
+# ASP-adaptive
 
 This repo is Pytorch implemention of TNNLS as described in the paper: “Unifying Attribute and Structure Preservation for Enhanced Graph Contrastive Learning”.
 
