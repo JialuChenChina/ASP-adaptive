@@ -23,8 +23,7 @@ def label_classification(embeddings, data):
 
     X = normalize(X, norm='l2')
 
-    X_train, X_test, y_train, y_test =  (X, Y,
-                                                        test_size=1 - 0.1)
+    X_train, X_test, y_train, y_test =  (X, Y, test_size=1 - 0.1)
 
     logreg = LogisticRegression(solver='liblinear')
     c = 2.0 ** np.arange(-10, 10)
